@@ -1,0 +1,3 @@
+Embedded Motion Driver 5.1.3 is our six-axis version of eMD 6.1. If a compass in not required for your application, than we recommend using this. This is a thin and lightweight solution that can be ported to any MCU with little difficulty. The driver is available in full source with a DMP binary image that is responsible for fusing and calibrating the data from the gyroscope and accelerometer. 
+
+There is no software library included in this release; a python cube demo is included and is very suitable for application development. There is an also an example for SPI implementation if I2C is not suitable. This SPI example can also be used for eMD 6.1
