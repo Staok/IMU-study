@@ -19,21 +19,43 @@
 │  ├─MPU-6050中文资料、测试程序和硬件资料
 │  │  ├─MPU-6050官网资料
 │  │  ├─原理图
+│  │  ├─寄存器描述 使用心得
 │  │  └─测试程序
 │  ├─MPU-6500官网资料
 │  ├─MPU-9250官网资料、测试程序和硬件资料
 │  │  ├─原理图
 │  │  └─测试代码
-│  ├─MPU-9255官网资料
+│  ├─MPU-9255官网资料、测试程序和硬件资料
+│  │  └─微雪百科方案
 │  └─MPU_DMP官网库和说明
 │      ├─motion_driver-5.1.3
 │      └─motion_driver_6.12
 ├─3 其他各种IMU
-│  ├─ADXL345
-│  ├─ENC03
-│  ├─L3G4200
-│  ├─MMA7455
-│  └─MMA8451
-└─README.assets
+│  ├─ADXL345 三轴加速度计
+│  ├─ENC03 模拟 单轴陀螺仪
+│  ├─HMC5883L 电子罗盘
+│  │  ├─原理图
+│  │  └─官方手册 使用经验
+│  │      └─官方手册
+│  ├─ICM20602 六轴
+│  ├─ICM20948 性能远超MPU6050 9250等，功耗更低
+│  │  ├─ICM20948 官网资料全
+│  │  │  ├─Chip
+│  │  │  │  ├─App Notes
+│  │  │  │  ├─Datasheet
+│  │  │  │  └─User Guides
+│  │  │  └─demo板
+│  │  │      ├─Hardware Reference Design
+│  │  │      ├─Product Brief
+│  │  │      ├─Software
+│  │  │      └─userguide
+│  │  └─微雪百科方案
+│  ├─IST8310 电子罗盘
+│  ├─L3G4200 三轴陀螺仪
+│  ├─MMA7455 三轴加速度计
+│  ├─MMA8451 三轴加速度计
+│  └─TDK-InvenSense Motion Sensor
+├─README.assets
+└─传感器的校准
 ```
 
