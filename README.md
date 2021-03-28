@@ -6,7 +6,7 @@
 
 对常见IMU芯片的原理、驱动和数据融合算法整理，以区分某度、某坛上面碎片化严重到影响入坑的乱象。
 
-注：角加速度、角速度的融合算法中，卡尔曼滤波（参考网上）、类一阶滤波（一阶滤波算法改的）和清华滤波（智能车常用）这三种算法的具体 C 语言实现的代码，已经写在了我的另一个项目 MCU Framework 的 IMU Device 中，[链接](https://github.com/Staok/stm32_framework/tree/master/STM32F4DSP_HAL_freeRTOS_Framework/DEVICES/IMU)。
+注：角加速度、角速度的融合算法中，卡尔曼滤波（参考网上）、类一阶滤波（一阶滤波算法改的）和清华滤波（本科智能车竞赛常用的）这三种算法的具体 C 语言实现的代码，已经写在了我的另一个项目 MCU Framework 的 IMU Device 中，[链接](https://github.com/Staok/stm32_framework/tree/master/STM32F4DSP_HAL_freeRTOS_Framework/DEVICES/IMU)。
 
 目录树形图：
 
