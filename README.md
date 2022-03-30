@@ -8,12 +8,12 @@
 
 注：角加速度、角速度的融合算法中，卡尔曼滤波（参考网上）、类一阶滤波（一阶滤波算法改的）和清华滤波（本科智能车竞赛常用的）这三种算法的具体 C 语言实现的代码，已经写在了我的另一个项目 MCU Framework 的 IMU Device 中，[链接](https://github.com/Staok/stm32_framework/tree/master/STM32F4DSP_HAL_freeRTOS_Framework/DEVICES/IMU)。
 
-目录树形图：
+目前目录的树形图（欢迎提交 PR 补充）：
 
 ```
-├─0 加速度计、陀螺仪介绍
+0 加速度计、陀螺仪介绍
 ├─1 IMU的惯导、数据融合文档
-│  ├─卡尔曼介绍
+│  ├─卡尔曼滤波
 │  ├─四元数-欧拉角
 │  └─数据融合、姿态解算
 ├─2 MPU系列传感器资料
@@ -24,14 +24,14 @@
 │  └─MPU_DMP官网库和说明
 ├─3 其他各种IMU
 │  ├─ADXL345 三轴加速度计
-│  ├─BMI160 六轴 16位
 │  ├─ENC03 模拟 单轴陀螺仪
-│  ├─ICM20602 六轴
-│  ├─ICM20948 性能远超MPU6050 9250等，功耗更低
 │  ├─L3G4200 三轴陀螺仪
-│  ├─MMA7455 三轴加速度计
-│  ├─MMA8451 三轴加速度计
-│  └─TDK-InvenSense Motion Sensor
+│  ├─MXC400xXC 廉价 三轴加速度计
+│  ├─ST的
+│  ├─TDK-InvenSense Motion Sensor
+│  ├─【BOSCH 博世】
+│  ├─【MMA系列】
+│  └─【TDK InvenSense】
 ├─4 电子罗盘 磁力计
 │  ├─AK8975 三轴磁力计 0.3uT
 │  ├─HMC5883L 三轴磁力计
@@ -41,6 +41,7 @@
 │  ├─BMP085 I2C 分辨率为0.06hPa（0.5米）
 │  ├─BMP280 I2C SPI 分辨率为0.12hPa（1米）
 │  └─MS5611 I2C SPI 分辨率 10cm
+├─README.assets
 ├─传感器的校准
 └─综合性软件例程
     └─HMC5983 和 MPU6500 和 MS5611 的驱动程序
